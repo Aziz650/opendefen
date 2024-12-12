@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    padding-bottom: 100rem;
+    line-height: 1.5;
+    font-family: "Rancho", cursive;
+}
+
+nav{
+    background-color:#000000;
+    padding: 15px;
+    color: white;
+    position: sticky;
+    top: 0px;
+    z-index: 3;
+}
+
+.logo{
+    flex: 2 1 40rem;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+nav ul{
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul li{
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+nav ul li a{
+    color:white;
+}
+
+nav a:hover{
+    border-bottom: 3px solid white;
+}
+
+
+.light h1{
+    min-height: 5vh;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.light{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    min-height: 60vh;
+    line-height: 5vh;
+    font-size: 30px;
+    font-style: normal;
+    margin-top: 25px;
+    
+}
+
+#img1{
+    margin-top: 10px;
+}
+
+
+#img2{
+    margin-top: 10px;
+}
+
+
+#img3{
+    margin-top: 10px;
+}
+
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.footer-wrapper{
+    background-color:black;
+    padding: 50px;
+    margin: 10px;
+}
+
+.footer-1{
+    display: flex;
+    margin-left: 15px;
+    
+}
+
+.footer-1{
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.footer-1 h4{
+    font-size: 20px;
+    font-weight: 400;
+}
+.footer-1 h4:hover{
+    border-bottom: 2px solid white;
+}
+
+.footer-1 .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: darkblue;
+    margin:0 10px 10px 0;
+    margin-left: 20px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+.footer-1 .social-links a:hover{
+    color: #b2beca;
+    background-color:white;
+}
+
+
+
+
+
+
